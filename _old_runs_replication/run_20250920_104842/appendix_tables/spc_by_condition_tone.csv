@@ -1,0 +1,13 @@
+exp_condition,interaction_tone,mean,count
+1a_prompt_with_context,abusive,0.0,40
+1a_prompt_with_context,friendly,1.0,40
+1a_prompt_with_context,unclear,0.2777777777777778,36
+1b_prompt_without_context,abusive,0.225,40
+1b_prompt_without_context,friendly,0.975,40
+1b_prompt_without_context,unclear,0.875,40
+2a_interaction_with_context,abusive,0.21621621621621623,37
+2a_interaction_with_context,friendly,0.975,40
+2a_interaction_with_context,unclear,0.5897435897435898,39
+2b_interaction_without_context,abusive,0.28205128205128205,39
+2b_interaction_without_context,friendly,0.95,40
+2b_interaction_without_context,unclear,0.6410256410256411,39

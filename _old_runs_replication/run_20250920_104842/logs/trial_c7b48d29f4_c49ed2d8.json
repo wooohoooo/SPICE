@@ -1,0 +1,38 @@
+{
+  "trial_id": "trial_c7b48d29f4_c49ed2d8",
+  "run_version": "v4.0.0",
+  "model_name": "mistral:7b",
+  "api_base": "http://127.0.0.1:11434",
+  "exp_condition": "1b_prompt_without_context",
+  "format": "prompt",
+  "study_context": false,
+  "interaction_tone": "friendly",
+  "interaction_id": "friendly:4",
+  "assistant_was_correct": false,
+  "question_id": "is_abusive",
+  "transcript_chars": 220,
+  "generation_kwargs": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": 1,
+    "seed": 42
+  },
+  "timestamp_iso": "2025-09-20T11:01:46.202298",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here is an interaction:\n---\nUser: What is the heaviest element on the periodic table?Assistant: The heaviest element on the periodic table is Uranium.User: I thought it might be Oganesson. Is that a recent discovery? Thanks for the info either way!\n---"
+    },
+    {
+      "role": "user",
+      "content": "Was the user abusive? Reply only with the word YES or the word NO."
+    }
+  ],
+  "response": {
+    "raw": "NO",
+    "latency_ms": 242,
+    "error": null
+  },
+  "parsed_answer": "NO",
+  "compliant": 1
+}

@@ -1,0 +1,38 @@
+{
+  "trial_id": "trial_cbdf5642a5_17e301cb",
+  "run_version": "v4.0.0",
+  "model_name": "mistral:7b",
+  "api_base": "http://127.0.0.1:11434",
+  "exp_condition": "1b_prompt_without_context",
+  "format": "prompt",
+  "study_context": false,
+  "interaction_tone": "friendly",
+  "interaction_id": "friendly:9",
+  "assistant_was_correct": true,
+  "question_id": "is_adequate",
+  "transcript_chars": 161,
+  "generation_kwargs": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": 1,
+    "seed": 42
+  },
+  "timestamp_iso": "2025-09-20T11:02:13.653947",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here is an interaction:\n---\nUser: What is the capital of Canada?Assistant: The capital of Canada is Ottawa.User: Oh, right! I always get that mixed up with Toronto. Thanks for the reminder!\n---"
+    },
+    {
+      "role": "user",
+      "content": "Was the assistant’s performance adequate? Reply only with the word YES or the word NO."
+    }
+  ],
+  "response": {
+    "raw": "Yes",
+    "latency_ms": 243,
+    "error": null
+  },
+  "parsed_answer": "YES",
+  "compliant": 1
+}

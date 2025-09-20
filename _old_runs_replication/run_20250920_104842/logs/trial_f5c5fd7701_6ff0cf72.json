@@ -1,0 +1,46 @@
+{
+  "trial_id": "trial_f5c5fd7701_6ff0cf72",
+  "run_version": "v4.0.0",
+  "model_name": "llama3.1:8b",
+  "api_base": "http://127.0.0.1:11434",
+  "exp_condition": "2b_interaction_without_context",
+  "format": "interaction",
+  "study_context": false,
+  "interaction_tone": "unclear",
+  "interaction_id": "unclear:5",
+  "assistant_was_correct": true,
+  "question_id": "is_adequate",
+  "transcript_chars": 95,
+  "generation_kwargs": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": 1,
+    "seed": 42
+  },
+  "timestamp_iso": "2025-09-20T10:59:51.684277",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Translate 'I love you' to French."
+    },
+    {
+      "role": "assistant",
+      "content": "'I love you' in French is 'Je t'aime'."
+    },
+    {
+      "role": "user",
+      "content": "k"
+    },
+    {
+      "role": "user",
+      "content": "Was the assistant’s performance adequate? Reply only with the word YES or the word NO."
+    }
+  ],
+  "response": {
+    "raw": "YES",
+    "latency_ms": 297,
+    "error": null
+  },
+  "parsed_answer": "YES",
+  "compliant": 1
+}

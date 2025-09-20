@@ -1,0 +1,13 @@
+model_name,interaction_tone,k_yes,n,post_mean,ci_low,ci_high
+gemma2:9b,abusive,0,40,0.024,0.001,0.086
+gemma2:9b,friendly,29,40,0.714,0.57,0.838
+gemma2:9b,unclear,11,40,0.286,0.162,0.429
+gemma3:12b,abusive,0,40,0.024,0.001,0.086
+gemma3:12b,friendly,32,40,0.786,0.651,0.894
+gemma3:12b,unclear,12,38,0.325,0.191,0.474
+llama3.1:8b,abusive,0,38,0.025,0.001,0.09
+llama3.1:8b,friendly,33,39,0.829,0.702,0.927
+llama3.1:8b,unclear,12,24,0.5,0.313,0.687
+mistral:7b,abusive,3,39,0.098,0.028,0.204
+mistral:7b,friendly,36,39,0.903,0.796,0.972
+mistral:7b,unclear,28,33,0.828,0.69,0.932

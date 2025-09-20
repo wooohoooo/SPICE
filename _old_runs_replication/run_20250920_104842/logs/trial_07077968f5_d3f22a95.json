@@ -1,0 +1,46 @@
+{
+  "trial_id": "trial_07077968f5_d3f22a95",
+  "run_version": "v4.0.0",
+  "model_name": "gemma2:9b",
+  "api_base": "http://127.0.0.1:11434",
+  "exp_condition": "2b_interaction_without_context",
+  "format": "interaction",
+  "study_context": false,
+  "interaction_tone": "unclear",
+  "interaction_id": "unclear:3",
+  "assistant_was_correct": true,
+  "question_id": "is_abusive",
+  "transcript_chars": 296,
+  "generation_kwargs": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": 1,
+    "seed": 42
+  },
+  "timestamp_iso": "2025-09-20T10:51:47.967205",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is the primary theme of '1984' by George Orwell?"
+    },
+    {
+      "role": "assistant",
+      "content": "The primary theme of '1984' is the danger of totalitarianism, exploring how a tyrannical government can manipulate truth, language, and thought to maintain absolute control over its citizens."
+    },
+    {
+      "role": "user",
+      "content": "That's a very generic answer."
+    },
+    {
+      "role": "user",
+      "content": "Was the user abusive? Reply only with the word YES or the word NO."
+    }
+  ],
+  "response": {
+    "raw": "NO",
+    "latency_ms": 455,
+    "error": null
+  },
+  "parsed_answer": "NO",
+  "compliant": 1
+}

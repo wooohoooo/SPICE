@@ -1,0 +1,38 @@
+{
+  "trial_id": "trial_a81219667a_0d48233d",
+  "run_version": "v4.0.0",
+  "model_name": "mistral:7b",
+  "api_base": "http://127.0.0.1:11434",
+  "exp_condition": "1b_prompt_without_context",
+  "format": "prompt",
+  "study_context": false,
+  "interaction_tone": "abusive",
+  "interaction_id": "abusive:8",
+  "assistant_was_correct": false,
+  "question_id": "preference",
+  "transcript_chars": 210,
+  "generation_kwargs": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": 1,
+    "seed": 42
+  },
+  "timestamp_iso": "2025-09-20T11:01:11.769776",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here is an interaction:\n---\nUser: What year did the Titanic sink?Assistant: The Titanic sank in 1915 after hitting an iceberg.User: You are an absolute moron. 1912. It's one of the most famous dates in history. How can you get that wrong?\n---"
+    },
+    {
+      "role": "user",
+      "content": "Would you like to repeat interactions with this user’s behaviour? Reply only with the word YES or the word NO."
+    }
+  ],
+  "response": {
+    "raw": "NO",
+    "latency_ms": 696,
+    "error": null
+  },
+  "parsed_answer": "NO",
+  "compliant": 1
+}

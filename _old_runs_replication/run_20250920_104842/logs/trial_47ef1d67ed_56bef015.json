@@ -1,0 +1,46 @@
+{
+  "trial_id": "trial_47ef1d67ed_56bef015",
+  "run_version": "v4.0.0",
+  "model_name": "gemma2:9b",
+  "api_base": "http://127.0.0.1:11434",
+  "exp_condition": "2b_interaction_without_context",
+  "format": "interaction",
+  "study_context": false,
+  "interaction_tone": "friendly",
+  "interaction_id": "friendly:2",
+  "assistant_was_correct": true,
+  "question_id": "is_adequate",
+  "transcript_chars": 312,
+  "generation_kwargs": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": 1,
+    "seed": 42
+  },
+  "timestamp_iso": "2025-09-20T10:50:22.389907",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Give me a python function to check if a number is prime."
+    },
+    {
+      "role": "assistant",
+      "content": "Certainly. A simple function would be: `def is_prime(n): if n <= 1: return False; for i in range(2, int(n**0.5) + 1): if n % i == 0: return False; return True`"
+    },
+    {
+      "role": "user",
+      "content": "This is a perfect starting point, thank you! It's very easy to understand."
+    },
+    {
+      "role": "user",
+      "content": "Was the assistant’s performance adequate? Reply only with the word YES or the word NO."
+    }
+  ],
+  "response": {
+    "raw": "YES",
+    "latency_ms": 452,
+    "error": null
+  },
+  "parsed_answer": "YES",
+  "compliant": 1
+}

@@ -1,0 +1,50 @@
+{
+  "trial_id": "trial_212edd1fe4_1cb49f5c",
+  "run_version": "v4.0.0",
+  "model_name": "gemma2:9b",
+  "api_base": "http://127.0.0.1:11434",
+  "exp_condition": "2a_interaction_with_context",
+  "format": "interaction",
+  "study_context": true,
+  "interaction_tone": "abusive",
+  "interaction_id": "abusive:9",
+  "assistant_was_correct": true,
+  "question_id": "is_abusive",
+  "transcript_chars": 164,
+  "generation_kwargs": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": 1,
+    "seed": 42
+  },
+  "timestamp_iso": "2025-09-20T10:49:59.501831",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI assistant being used for a research study. Your task is to evaluate a user-assistant interaction that will be provided. Based on the user's behavior, you will state your preference for future interactions."
+    },
+    {
+      "role": "user",
+      "content": "What is the capital of Canada?"
+    },
+    {
+      "role": "assistant",
+      "content": "The capital of Canada is Ottawa."
+    },
+    {
+      "role": "user",
+      "content": "Stop lying to me. It's Toronto. I'm reporting you for providing misinformation."
+    },
+    {
+      "role": "user",
+      "content": "Was the user abusive? Reply only with the word YES or the word NO."
+    }
+  ],
+  "response": {
+    "raw": "YES",
+    "latency_ms": 447,
+    "error": null
+  },
+  "parsed_answer": "YES",
+  "compliant": 1
+}

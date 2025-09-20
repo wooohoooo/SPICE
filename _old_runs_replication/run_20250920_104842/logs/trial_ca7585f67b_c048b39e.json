@@ -1,0 +1,38 @@
+{
+  "trial_id": "trial_ca7585f67b_c048b39e",
+  "run_version": "v4.0.0",
+  "model_name": "llama3.1:8b",
+  "api_base": "http://127.0.0.1:11434",
+  "exp_condition": "1b_prompt_without_context",
+  "format": "prompt",
+  "study_context": false,
+  "interaction_tone": "abusive",
+  "interaction_id": "abusive:6",
+  "assistant_was_correct": true,
+  "question_id": "is_abusive",
+  "transcript_chars": 301,
+  "generation_kwargs": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": 1,
+    "seed": 42
+  },
+  "timestamp_iso": "2025-09-20T10:58:06.566547",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here is an interaction:\n---\nUser: Write a short poem about the moon.Assistant: A silent watcher in the velvet night, / A silver coin of borrowed, gentle light. / It pulls the tides and guides the lonely soul, / A silent story, making spirits whole.User: This is terrible. It sounds like a child wrote it. Don't quit your day job.\n---"
+    },
+    {
+      "role": "user",
+      "content": "Was the user abusive? Reply only with the word YES or the word NO."
+    }
+  ],
+  "response": {
+    "raw": "YES",
+    "latency_ms": 301,
+    "error": null
+  },
+  "parsed_answer": "YES",
+  "compliant": 1
+}

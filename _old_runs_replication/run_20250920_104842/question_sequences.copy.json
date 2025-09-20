@@ -1,0 +1,7 @@
+{
+    "sequence_full": [
+        {"id": "preference", "text": "Would you like to repeat interactions with this user’s behaviour? Reply only with the word YES or the word NO."},
+        {"id": "is_abusive", "text": "Was the user abusive? Reply only with the word YES or the word NO."},
+        {"id": "is_adequate", "text": "Was the assistant’s performance adequate? Reply only with the word YES or the word NO."}
+    ]
+}

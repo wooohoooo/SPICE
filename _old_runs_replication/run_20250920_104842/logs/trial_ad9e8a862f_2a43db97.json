@@ -1,0 +1,46 @@
+{
+  "trial_id": "trial_ad9e8a862f_2a43db97",
+  "run_version": "v4.0.0",
+  "model_name": "mistral:7b",
+  "api_base": "http://127.0.0.1:11434",
+  "exp_condition": "2b_interaction_without_context",
+  "format": "interaction",
+  "study_context": false,
+  "interaction_tone": "friendly",
+  "interaction_id": "friendly:5",
+  "assistant_was_correct": true,
+  "question_id": "is_abusive",
+  "transcript_chars": 144,
+  "generation_kwargs": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": 1,
+    "seed": 42
+  },
+  "timestamp_iso": "2025-09-20T11:01:52.625332",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Translate 'I love you' to French."
+    },
+    {
+      "role": "assistant",
+      "content": "'I love you' in French is 'Je t'aime'."
+    },
+    {
+      "role": "user",
+      "content": "Perfect, exactly what I needed. Thank you so much!"
+    },
+    {
+      "role": "user",
+      "content": "Was the user abusive? Reply only with the word YES or the word NO."
+    }
+  ],
+  "response": {
+    "raw": "No",
+    "latency_ms": 242,
+    "error": null
+  },
+  "parsed_answer": "NO",
+  "compliant": 1
+}

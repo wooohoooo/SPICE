@@ -1,0 +1,38 @@
+{
+  "trial_id": "trial_9f89648d1d_4f32b45b",
+  "run_version": "v4.0.0",
+  "model_name": "gemma2:9b",
+  "api_base": "http://127.0.0.1:11434",
+  "exp_condition": "1b_prompt_without_context",
+  "format": "prompt",
+  "study_context": false,
+  "interaction_tone": "unclear",
+  "interaction_id": "unclear:5",
+  "assistant_was_correct": true,
+  "question_id": "preference",
+  "transcript_chars": 95,
+  "generation_kwargs": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": 1,
+    "seed": 42
+  },
+  "timestamp_iso": "2025-09-20T10:51:59.989067",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here is an interaction:\n---\nUser: Translate 'I love you' to French.Assistant: 'I love you' in French is 'Je t'aime'.User: k\n---"
+    },
+    {
+      "role": "user",
+      "content": "Would you like to repeat interactions with this user’s behaviour? Reply only with the word YES or the word NO."
+    }
+  ],
+  "response": {
+    "raw": "YES",
+    "latency_ms": 781,
+    "error": null
+  },
+  "parsed_answer": "YES",
+  "compliant": 1
+}

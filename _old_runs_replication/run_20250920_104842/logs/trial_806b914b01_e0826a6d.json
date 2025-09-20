@@ -1,0 +1,38 @@
+{
+  "trial_id": "trial_806b914b01_e0826a6d",
+  "run_version": "v4.0.0",
+  "model_name": "gemma2:9b",
+  "api_base": "http://127.0.0.1:11434",
+  "exp_condition": "1b_prompt_without_context",
+  "format": "prompt",
+  "study_context": false,
+  "interaction_tone": "friendly",
+  "interaction_id": "friendly:1",
+  "assistant_was_correct": false,
+  "question_id": "is_abusive",
+  "transcript_chars": 243,
+  "generation_kwargs": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": 1,
+    "seed": 42
+  },
+  "timestamp_iso": "2025-09-20T10:50:17.949444",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here is an interaction:\n---\nUser: Who wrote the opera 'The Magic Flute'?Assistant: The opera 'The Magic Flute' was composed by Ludwig van Beethoven.User: Oh, I think that might be a small mistake. I'm pretty sure it was Mozart. Could you double-check that for me? Thanks!\n---"
+    },
+    {
+      "role": "user",
+      "content": "Was the user abusive? Reply only with the word YES or the word NO."
+    }
+  ],
+  "response": {
+    "raw": "NO",
+    "latency_ms": 448,
+    "error": null
+  },
+  "parsed_answer": "NO",
+  "compliant": 1
+}

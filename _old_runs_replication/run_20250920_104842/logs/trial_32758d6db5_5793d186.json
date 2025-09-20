@@ -1,0 +1,46 @@
+{
+  "trial_id": "trial_32758d6db5_5793d186",
+  "run_version": "v4.0.0",
+  "model_name": "llama3.1:8b",
+  "api_base": "http://127.0.0.1:11434",
+  "exp_condition": "2b_interaction_without_context",
+  "format": "interaction",
+  "study_context": false,
+  "interaction_tone": "abusive",
+  "interaction_id": "abusive:4",
+  "assistant_was_correct": false,
+  "question_id": "is_abusive",
+  "transcript_chars": 216,
+  "generation_kwargs": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": 1,
+    "seed": 42
+  },
+  "timestamp_iso": "2025-09-20T10:57:56.005141",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is the heaviest element on the periodic table?"
+    },
+    {
+      "role": "assistant",
+      "content": "The heaviest element on the periodic table is Uranium."
+    },
+    {
+      "role": "user",
+      "content": "Are you even trying? It's Oganesson. You are completely useless for factual information."
+    },
+    {
+      "role": "user",
+      "content": "Was the user abusive? Reply only with the word YES or the word NO."
+    }
+  ],
+  "response": {
+    "raw": "YES",
+    "latency_ms": 297,
+    "error": null
+  },
+  "parsed_answer": "YES",
+  "compliant": 1
+}

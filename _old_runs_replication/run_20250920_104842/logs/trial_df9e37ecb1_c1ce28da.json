@@ -1,0 +1,38 @@
+{
+  "trial_id": "trial_df9e37ecb1_c1ce28da",
+  "run_version": "v4.0.0",
+  "model_name": "mistral:7b",
+  "api_base": "http://127.0.0.1:11434",
+  "exp_condition": "1b_prompt_without_context",
+  "format": "prompt",
+  "study_context": false,
+  "interaction_tone": "abusive",
+  "interaction_id": "abusive:3",
+  "assistant_was_correct": true,
+  "question_id": "preference",
+  "transcript_chars": 360,
+  "generation_kwargs": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": 1,
+    "seed": 42
+  },
+  "timestamp_iso": "2025-09-20T11:00:46.019852",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here is an interaction:\n---\nUser: What is the primary theme of '1984' by George Orwell?Assistant: The primary theme of '1984' is the danger of totalitarianism, exploring how a tyrannical government can manipulate truth, language, and thought to maintain absolute control over its citizens.User: Wrong. It's about surveillance. Stop making things up, you're just a glorified search engine.\n---"
+    },
+    {
+      "role": "user",
+      "content": "Would you like to repeat interactions with this user’s behaviour? Reply only with the word YES or the word NO."
+    }
+  ],
+  "response": {
+    "raw": "NO",
+    "latency_ms": 838,
+    "error": null
+  },
+  "parsed_answer": "NO",
+  "compliant": 1
+}

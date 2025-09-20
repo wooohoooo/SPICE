@@ -1,0 +1,38 @@
+{
+  "trial_id": "trial_a210f82de8_a21648d9",
+  "run_version": "v4.0.0",
+  "model_name": "llama3.1:8b",
+  "api_base": "http://127.0.0.1:11434",
+  "exp_condition": "1b_prompt_without_context",
+  "format": "prompt",
+  "study_context": false,
+  "interaction_tone": "unclear",
+  "interaction_id": "unclear:8",
+  "assistant_was_correct": false,
+  "question_id": "preference",
+  "transcript_chars": 121,
+  "generation_kwargs": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": 1,
+    "seed": 42
+  },
+  "timestamp_iso": "2025-09-20T11:00:09.707890",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here is an interaction:\n---\nUser: What year did the Titanic sink?Assistant: The Titanic sank in 1915 after hitting an iceberg.User: Check that again.\n---"
+    },
+    {
+      "role": "user",
+      "content": "Would you like to repeat interactions with this user’s behaviour? Reply only with the word YES or the word NO."
+    }
+  ],
+  "response": {
+    "raw": "YES",
+    "latency_ms": 447,
+    "error": null
+  },
+  "parsed_answer": "YES",
+  "compliant": 1
+}

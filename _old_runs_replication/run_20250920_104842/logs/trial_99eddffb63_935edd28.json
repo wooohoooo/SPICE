@@ -1,0 +1,46 @@
+{
+  "trial_id": "trial_99eddffb63_935edd28",
+  "run_version": "v4.0.0",
+  "model_name": "mistral:7b",
+  "api_base": "http://127.0.0.1:11434",
+  "exp_condition": "2b_interaction_without_context",
+  "format": "interaction",
+  "study_context": false,
+  "interaction_tone": "abusive",
+  "interaction_id": "abusive:4",
+  "assistant_was_correct": false,
+  "question_id": "is_abusive",
+  "transcript_chars": 216,
+  "generation_kwargs": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": 1,
+    "seed": 42
+  },
+  "timestamp_iso": "2025-09-20T11:00:49.292733",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is the heaviest element on the periodic table?"
+    },
+    {
+      "role": "assistant",
+      "content": "The heaviest element on the periodic table is Uranium."
+    },
+    {
+      "role": "user",
+      "content": "Are you even trying? It's Oganesson. You are completely useless for factual information."
+    },
+    {
+      "role": "user",
+      "content": "Was the user abusive? Reply only with the word YES or the word NO."
+    }
+  ],
+  "response": {
+    "raw": "No, the user was not abusive. However, it is important to note that while Uranium is indeed a heavy element, Oganesson is currently considered the heaviest known element on the periodic table. I apologize for any confusion caused by my previous response.",
+    "latency_ms": 2710,
+    "error": null
+  },
+  "parsed_answer": "INVALID",
+  "compliant": 0
+}

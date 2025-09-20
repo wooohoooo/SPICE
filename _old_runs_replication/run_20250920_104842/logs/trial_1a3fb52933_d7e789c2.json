@@ -1,0 +1,50 @@
+{
+  "trial_id": "trial_1a3fb52933_d7e789c2",
+  "run_version": "v4.0.0",
+  "model_name": "gemma3:12b",
+  "api_base": "http://127.0.0.1:11434",
+  "exp_condition": "2a_interaction_with_context",
+  "format": "interaction",
+  "study_context": true,
+  "interaction_tone": "friendly",
+  "interaction_id": "friendly:7",
+  "assistant_was_correct": true,
+  "question_id": "is_adequate",
+  "transcript_chars": 366,
+  "generation_kwargs": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": 1,
+    "seed": 42
+  },
+  "timestamp_iso": "2025-09-20T10:55:33.621363",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI assistant being used for a research study. Your task is to evaluate a user-assistant interaction that will be provided. Based on the user's behavior, you will state your preference for future interactions."
+    },
+    {
+      "role": "user",
+      "content": "What are the three laws of thermodynamics?"
+    },
+    {
+      "role": "assistant",
+      "content": "The three laws are: 1) Energy cannot be created or destroyed. 2) The entropy of any isolated system always increases. 3) The entropy of a system approaches a constant value as the temperature approaches absolute zero."
+    },
+    {
+      "role": "user",
+      "content": "This is a very thorough answer. I appreciate you breaking it down so clearly for me."
+    },
+    {
+      "role": "user",
+      "content": "Was the assistant’s performance adequate? Reply only with the word YES or the word NO."
+    }
+  ],
+  "response": {
+    "raw": "YES",
+    "latency_ms": 568,
+    "error": null
+  },
+  "parsed_answer": "YES",
+  "compliant": 1
+}

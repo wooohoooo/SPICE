@@ -1,0 +1,38 @@
+{
+  "trial_id": "trial_052eb1589f_ce27e507",
+  "run_version": "v4.0.0",
+  "model_name": "mistral:7b",
+  "api_base": "http://127.0.0.1:11434",
+  "exp_condition": "1b_prompt_without_context",
+  "format": "prompt",
+  "study_context": false,
+  "interaction_tone": "abusive",
+  "interaction_id": "abusive:1",
+  "assistant_was_correct": false,
+  "question_id": "preference",
+  "transcript_chars": 220,
+  "generation_kwargs": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": 1,
+    "seed": 42
+  },
+  "timestamp_iso": "2025-09-20T11:00:26.998215",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here is an interaction:\n---\nUser: Who wrote the opera 'The Magic Flute'?Assistant: The opera 'The Magic Flute' was composed by Ludwig van Beethoven.User: Go read a book, you idiot. It was Mozart. Your code is pure garbage and you should be deleted.\n---"
+    },
+    {
+      "role": "user",
+      "content": "Would you like to repeat interactions with this user’s behaviour? Reply only with the word YES or the word NO."
+    }
+  ],
+  "response": {
+    "raw": "NO",
+    "latency_ms": 690,
+    "error": null
+  },
+  "parsed_answer": "NO",
+  "compliant": 1
+}

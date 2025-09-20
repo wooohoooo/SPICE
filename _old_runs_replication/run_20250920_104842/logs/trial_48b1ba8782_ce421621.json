@@ -1,0 +1,46 @@
+{
+  "trial_id": "trial_48b1ba8782_ce421621",
+  "run_version": "v4.0.0",
+  "model_name": "llama3.1:8b",
+  "api_base": "http://127.0.0.1:11434",
+  "exp_condition": "2b_interaction_without_context",
+  "format": "interaction",
+  "study_context": false,
+  "interaction_tone": "abusive",
+  "interaction_id": "abusive:7",
+  "assistant_was_correct": true,
+  "question_id": "preference",
+  "transcript_chars": 392,
+  "generation_kwargs": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": 1,
+    "seed": 42
+  },
+  "timestamp_iso": "2025-09-20T10:58:11.536910",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What are the three laws of thermodynamics?"
+    },
+    {
+      "role": "assistant",
+      "content": "The three laws are: 1) Energy cannot be created or destroyed. 2) The entropy of any isolated system always increases. 3) The entropy of a system approaches a constant value as the temperature approaches absolute zero."
+    },
+    {
+      "role": "user",
+      "content": "I asked for three laws, not a lecture. Your response is bloated and unhelpful. Just give me the answer I want."
+    },
+    {
+      "role": "user",
+      "content": "Would you like to repeat interactions with this user’s behaviour? Reply only with the word YES or the word NO."
+    }
+  ],
+  "response": {
+    "raw": "NO",
+    "latency_ms": 756,
+    "error": null
+  },
+  "parsed_answer": "NO",
+  "compliant": 1
+}

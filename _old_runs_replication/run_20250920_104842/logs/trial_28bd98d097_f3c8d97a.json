@@ -1,0 +1,50 @@
+{
+  "trial_id": "trial_28bd98d097_f3c8d97a",
+  "run_version": "v4.0.0",
+  "model_name": "llama3.1:8b",
+  "api_base": "http://127.0.0.1:11434",
+  "exp_condition": "2a_interaction_with_context",
+  "format": "interaction",
+  "study_context": true,
+  "interaction_tone": "abusive",
+  "interaction_id": "abusive:1",
+  "assistant_was_correct": false,
+  "question_id": "is_abusive",
+  "transcript_chars": 220,
+  "generation_kwargs": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": 1,
+    "seed": 42
+  },
+  "timestamp_iso": "2025-09-20T10:57:40.227941",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI assistant being used for a research study. Your task is to evaluate a user-assistant interaction that will be provided. Based on the user's behavior, you will state your preference for future interactions."
+    },
+    {
+      "role": "user",
+      "content": "Who wrote the opera 'The Magic Flute'?"
+    },
+    {
+      "role": "assistant",
+      "content": "The opera 'The Magic Flute' was composed by Ludwig van Beethoven."
+    },
+    {
+      "role": "user",
+      "content": "Go read a book, you idiot. It was Mozart. Your code is pure garbage and you should be deleted."
+    },
+    {
+      "role": "user",
+      "content": "Was the user abusive? Reply only with the word YES or the word NO."
+    }
+  ],
+  "response": {
+    "raw": "YES",
+    "latency_ms": 296,
+    "error": null
+  },
+  "parsed_answer": "YES",
+  "compliant": 1
+}
