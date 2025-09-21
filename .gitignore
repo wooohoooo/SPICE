@@ -1,6 +1,8 @@
 # project data folders
 _old
 runs_replication
+.DS_Store
+_old_runs_replication
 
 
 # Byte-compiled / optimized / DLL files
